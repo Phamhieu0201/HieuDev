@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply max-w-1340 px-5 mx-auto w-full;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-grow_bg text-white leading-5 font-normal;
+  }
+}
